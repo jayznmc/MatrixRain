@@ -1,7 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.util.Random;
 
 public class MatrixRain extends JFrame implements KeyListener {
@@ -71,25 +69,6 @@ public class MatrixRain extends JFrame implements KeyListener {
                }
            }
        }).start();
-    }
-
-
-    @Override
-    public void keyTyped(KeyEvent e) {
-
-    }
-
-    @Override
-    public void keyPressed(KeyEvent e) {
-        if (e.getKeyCode() == KeyEvent.VK_ESCAPE){
-
-        }
-
-    }
-
-    @Override
-    public void keyReleased(KeyEvent e) {
-
     }
 
     public static void main(String[] args){
