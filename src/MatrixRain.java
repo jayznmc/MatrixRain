@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
-public class MatrixRain extends JFrame implements KeyListener {
+public class MatrixRain extends JFrame{
 
 
     public static MatrixRain matrixRain;
@@ -29,7 +29,6 @@ public class MatrixRain extends JFrame implements KeyListener {
         //Add panel to Frame
         add(panel);
         setVisible(true);
-        addKeyListener(this);
         setExtendedState(JFrame.MAXIMIZED_BOTH); // set to full screen
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
